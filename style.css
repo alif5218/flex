@@ -1,0 +1,133 @@
+body{
+    background: powderblue;
+}
+.container{
+    margin: 0px;
+    
+}
+.container .row{
+  display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    background:powderblue;
+    min-height: 200px;
+    align-items: start;
+    
+}
+.container .row .col{
+    background: orange;
+    color:white;
+    padding:20px;
+    border:2px solid red;
+    width:100px;
+    height:100px;
+}
+.container .row .col:nth-of-type(3){
+    flex-basis: 200px;
+}
+.container .row .col:nth-of-type(3) ul{
+   background: orange;
+    list-style: none;
+    position:absolute;
+}
+.container .row .col:nth-of-type(3) ul li{
+    float:left;
+    margin-top:20px;
+}
+.container .row .col:nth-of-type(3) ul li a{
+    width:100%
+        font-size:20px;
+    display:block;
+    text-decoration: none;
+    color:white;
+    border-radius:10x;
+    padding:25px;
+}
+.container .row .col:nth-of-type(3) ul li a:hover{
+    background:orange;
+}
+.container .row .col:nth-of-type(3) ul li > ul{
+    display:none;
+}
+.container .row .col:nth-of-type(3) ul li > ul li{
+    float:none;
+}
+.container .row .col:nth-of-type(3) ul li:hover > ul {
+    display:block;
+}
+.container .row .col:nth-of-type(1) ul{
+    background: orange;
+    list-style:none;
+    position: absolute;
+   
+}
+.container .row .col:nth-of-type(1) ul li{
+      float:left;
+    margin-top:20px;
+}
+.container .row .col:nth-of-type(1) ul li a{
+        width:100%
+        font-size:20px;
+    display:block;
+    text-decoration: none;
+    color:white;
+    border-radius:10x;
+    padding:25px;
+}
+.container .row .col:nth-of-type(1){
+    flex-basis: 200px;
+}
+.container .row .col:nth-of-type(1) ul li a:hover{
+    background: orange;
+}
+.container .row .col:nth-of-type(2) ul{
+    background: orange;
+    list-style:none;
+    position: absolute;
+   
+}
+.container .row .col:nth-of-type(2) ul li{
+      float:left;
+    margin-top:20px;
+}
+.container .row .col:nth-of-type(2) ul li a{
+        width:100%
+        font-size:20px;
+    display:block;
+    text-decoration: none;
+    color:white;
+    border-radius:10x;
+    padding:25px;
+}
+.container .row .col:nth-of-type(2){
+    flex-basis: 200px;
+}
+.container .row .col:nth-of-type(2) ul li a:hover{
+    background: orange;
+}
+.container .row .col:nth-of-type(4) ul{
+    background: orange;
+    list-style:none;
+    position: absolute;
+   
+}
+.container .row .col:nth-of-type(4) ul li{
+      float:left;
+    margin-top:20px;
+}
+.container .row .col:nth-of-type(4) ul li a{
+        width:100%
+        font-size:20px;
+    display:block;
+    text-decoration: none;
+    color:white;
+    border-radius:10x;
+    padding:25px;
+}
+.container .row .col:nth-of-type(4){
+    flex-basis: 200px;
+}
+.container .row .col:nth-of-type(4) ul li a:hover{
+    background: orange;
+}
