@@ -1,133 +1,64 @@
 body{
-    background: powderblue;
+    background-image: url('facebook.jpg');
+
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.container{
-    margin: 0px;
-    
+.login{
+    color: white;
+    font-size: 2rem;
+   
+
+}
+.createaccount{
+    color:white;
+    font-size: 4rem;
+}
+.name{
+    color: white;
+    font-size: 1rem;
+}
+.number{
+    color:white;
+    font-size: 1rem;
+}
+.dateofbirth{
+    color:white;
+    font-size: 1rem;
+}
+.gender{
+    color: white;
+    font-size: 1rem;
+}
+.password{
+    color: white;
+    font-size: 1rem;
+}
+.re-typepassword{
+    color: white;
+    font-size: 1rem;
+}
+.submit tr td{
+    color:white;
+    font-size:1rem;
 }
 .container .row{
-  display:flex;
-    gap:20px;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    background:powderblue;
-    min-height: 200px;
-    align-items: start;
-    
+display: flex;
+margin-top: 0px;
+flex-wrap: wrap;
+justify-content: space-between;
+
+min-height:900px;
+align-items:start;
+flex-direction:row-reverse;
+
 }
 .container .row .col{
-    background: orange;
-    color:white;
+    background: rgb(112, 112, 251) ;
     padding:20px;
-    border:2px solid red;
-    width:100px;
-    height:100px;
-}
-.container .row .col:nth-of-type(3){
-    flex-basis: 200px;
-}
-.container .row .col:nth-of-type(3) ul{
-   background: orange;
-    list-style: none;
-    position:absolute;
-}
-.container .row .col:nth-of-type(3) ul li{
-    float:left;
-    margin-top:20px;
-}
-.container .row .col:nth-of-type(3) ul li a{
-    width:100%
-        font-size:20px;
-    display:block;
-    text-decoration: none;
-    color:white;
-    border-radius:10x;
-    padding:25px;
-}
-.container .row .col:nth-of-type(3) ul li a:hover{
-    background:orange;
-}
-.container .row .col:nth-of-type(3) ul li > ul{
-    display:none;
-}
-.container .row .col:nth-of-type(3) ul li > ul li{
-    float:none;
-}
-.container .row .col:nth-of-type(3) ul li:hover > ul {
-    display:block;
-}
-.container .row .col:nth-of-type(1) ul{
-    background: orange;
-    list-style:none;
-    position: absolute;
+    border:2px solid black;
+    width:400px;
+    height:650px;
    
 }
-.container .row .col:nth-of-type(1) ul li{
-      float:left;
-    margin-top:20px;
-}
-.container .row .col:nth-of-type(1) ul li a{
-        width:100%
-        font-size:20px;
-    display:block;
-    text-decoration: none;
-    color:white;
-    border-radius:10x;
-    padding:25px;
-}
-.container .row .col:nth-of-type(1){
-    flex-basis: 200px;
-}
-.container .row .col:nth-of-type(1) ul li a:hover{
-    background: orange;
-}
-.container .row .col:nth-of-type(2) ul{
-    background: orange;
-    list-style:none;
-    position: absolute;
-   
-}
-.container .row .col:nth-of-type(2) ul li{
-      float:left;
-    margin-top:20px;
-}
-.container .row .col:nth-of-type(2) ul li a{
-        width:100%
-        font-size:20px;
-    display:block;
-    text-decoration: none;
-    color:white;
-    border-radius:10x;
-    padding:25px;
-}
-.container .row .col:nth-of-type(2){
-    flex-basis: 200px;
-}
-.container .row .col:nth-of-type(2) ul li a:hover{
-    background: orange;
-}
-.container .row .col:nth-of-type(4) ul{
-    background: orange;
-    list-style:none;
-    position: absolute;
-   
-}
-.container .row .col:nth-of-type(4) ul li{
-      float:left;
-    margin-top:20px;
-}
-.container .row .col:nth-of-type(4) ul li a{
-        width:100%
-        font-size:20px;
-    display:block;
-    text-decoration: none;
-    color:white;
-    border-radius:10x;
-    padding:25px;
-}
-.container .row .col:nth-of-type(4){
-    flex-basis: 200px;
-}
-.container .row .col:nth-of-type(4) ul li a:hover{
-    background: orange;
-}
+
